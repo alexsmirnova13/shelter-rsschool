@@ -1,0 +1,1449 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url(../../images/Group\ 1.png);
+    position: absolute;
+    width: 1280px;
+    height: 908px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+
+.header {
+    position: absolute;
+}
+
+.logo {
+    position: absolute;
+    width: 184px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.title {
+    position: absolute;
+    width: 186px;
+    height: 35px;
+    left: 0px;
+    top: calc(50% - 35px/2 - 12.5px);
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.subtitile {
+    position: absolute;
+    left: 4px;
+    top: calc(50% - 15px/2 + 22.5px);
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.navBar {
+    position: absolute;
+    width: 443px;
+    height: 27px;
+    left: 757px;
+    bottom: 44px;
+}
+
+.linkAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 114px;
+    height: 27px;
+    right: 329px;
+    top: 16px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 3.5px solid #F1CDB3;
+}
+
+.linkContacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    right: 0px;
+    top: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.linkHelp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    right: 95px;
+    top: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.linkOurPets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 58px;
+    height: 24px;
+    right: 236px;
+    top: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navLinksText{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.navLinksTextAbout{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    cursor:default;
+}
+
+.navLinksText:hover{
+    color:#FAFAFA;
+}
+
+.startScreen{
+    position: absolute;
+    width: 1200px;
+    height: 728px;
+    left: 40px;
+    top: 180px;
+}
+
+.content{
+    position: absolute;
+    width: 460px;
+    height: 322px;
+    left: 0px;
+    top: 163px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+    position: absolute;
+    width: 207px;
+    height: 52px;
+    left: calc(50% - 207px/2 - 126.5px);
+    bottom: 0px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #FDDCC4;
+    transition: .4s;
+}
+
+.btnSpan{
+    position: static;
+    left: 21.74%;
+    right: 21.74%;
+    top: 28.85%;
+    bottom: 28.85%;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-decoration: none;
+    letter-spacing: 0.09em;
+    color: #292929;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.dog{
+    position: absolute;
+    width: 698px;
+    height: 728px;
+    left: calc(50% - 698px/2 + 251px);
+    bottom: 0px;
+}
+
+.heading{
+    position: absolute;
+    width: 310px;
+    height: 114px;
+    left: calc(50% - 310px/2 - 75px);
+    bottom: 208px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.paragraph-l{
+    position: absolute;
+    width: 460px;
+    height: 72px;
+    left: calc(50% - 460px/2);
+    bottom: 94px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #CDCDCD;
+}
+
+.about{
+    width: 1280px;
+    position: absolute;
+    height: 588px;
+    left: 0%;
+    right: 0%;
+    top: 908px;
+    background: #FFFFFF;
+}
+
+.aboutContent{
+    position: absolute;
+    width: 1200px;
+    height: 408px;
+    left: calc(50% - 1200px/2);
+    top: calc(50% - 408px/2 - 10px);
+}
+
+.aboutPets {
+    position: absolute;
+    width: 300px;
+    height: 408px;
+    left: 175px;
+    top: 0px;
+}
+
+.aboutText {
+    position: absolute;
+    width: 430px;
+    height: 380px;
+    left: 595px;
+    top: 14px;
+}
+
+.aboutH3{
+    position: absolute;
+    width: 370px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.aboutP1{
+    position: absolute;
+    width: 430px;
+    height: 96px;
+    left: 0px;
+    top: 115px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+}
+
+.aboutP2 {
+    position: absolute;
+    width: 430px;
+    height: 144px;
+    left: 0px;
+    top: 236px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #4C4C4C;
+}
+
+.pets{
+    position: absolute;
+    height: 877px;
+    left: 0%;
+    right: 0%;
+    top: 1496px;
+    width: 1280px;
+    background: #F6F6F6;
+}
+
+.petsContent {
+    position: absolute;
+    width: 1200px;
+    height: 697px;
+    left: calc(50% - 1200px/2);
+    top: 80px;
+}
+
+.petsHeading{
+    position: absolute;
+    width: 400px;
+    height: 90px;
+    left: 400px;
+    top: 0px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.slider{
+    position: absolute;
+    width: 1200px;
+    height: 435px;
+    left: 0px;
+    top: 150px;
+}
+
+.sliderBtnLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 21px 19px;
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 0px;
+    top: 192px;
+    background-color: transparent;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.sliderBtnLeft:hover{
+    background-color: #FDDCC4;
+    border-color: #FDDCC4;
+    transition: .4s;
+}
+
+.sliderBtnRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 21px 19px;
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 1148px;
+    top: 192px;
+    background-color: transparent;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    transform: rotate(-180deg);
+    cursor: pointer;
+}
+
+.sliderBtnRight:hover{
+    background-color: #FDDCC4;
+    border-color: #FDDCC4;
+    transition: .4s;
+}
+
+.arrowLeft{
+    position: static;
+    left: 36.54%;
+    right: 36.54%;
+    top: 44.23%;
+    bottom: 44.23%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+
+.arrowRight{
+    position: static;
+    left: 63.46%;
+    right: 9.62%;
+    top: 55.77%;
+    bottom: 32.69%;
+    transform: rotate(-180deg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+.cardFirst{
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: 105px;
+    top: 0px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.nameKaterine{
+    position: absolute;
+    width: 74px;
+    height: 23px;
+    left: 98px;
+    top: 300px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.photo {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 37.93%;
+    background: url(image.png);
+    border-radius: 9px 9px 0px 0px;
+}
+
+.buttonSecondary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 187px;
+    height: 52px;
+    left: 41.5px;
+    top: 353px;
+}
+
+.cardBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 42px;
+    background-color: #FAFAFA;;
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+.cardBtn:hover{
+    background-color: #FDDCC4;
+    border-color: #FDDCC4;
+    transition: .4s;
+}
+
+.cardBtnText {
+    position: static;
+    left: 24.06%;
+    right: 24.06%;
+    top: 28.85%;
+    bottom: 28.85%;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #292929;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nameJenifer{
+    position: absolute;
+    width: 83px;
+    height: 23px;
+    left: 94px;
+    top: 300px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.cardSecond{
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: 465px;
+    top: 0px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.nameWoody {
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    left: 101px;
+    top: 300px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.cardThird{
+    position: absolute;
+    left: 68.75%;
+    right: 8.75%;
+    top: 0%;
+    bottom: 0%;
+    background: #FAFAFA;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.cardThird:hover .cardBtn{
+    background-color: #FDDCC4;
+    border-color: #FDDCC4;
+    transition: .4s;
+}
+
+.cardThird:hover{
+    background-color: #FFFFFF;
+}
+
+.cardSecond:hover .cardBtn{
+    background-color: #FDDCC4;
+    border-color: #FDDCC4;
+    transition: .4s;
+}
+
+.cardSecond:hover{
+    background-color: #FFFFFF;
+}
+
+.cardFirst:hover .cardBtn{
+    background-color: #FDDCC4;
+    border-color: #FDDCC4;
+    transition: .4s;
+}
+
+.cardFirst:hover{
+    background-color: #FFFFFF;
+}
+
+.btnGetToKnowTheRest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 44px;
+    position: absolute;
+    width: 261px;
+    height: 52px;
+    left: 470px;
+    top: 645px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnGetToKnowTheRest:hover{
+    background-color: #FDDCC4;
+    transition: .4s;
+}
+
+.getToKnowTheRest{
+    position: static;
+    left: 17.24%;
+    right: 17.24%;
+    top: 28.85%;
+    bottom: 28.85%;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: #292929;
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+}
+
+.help {
+    position: absolute;
+    height: 611px;
+    left: 0%;
+    right: 0%;
+    top: 2373px;
+    width: 1280px;
+    background: #FFFFFF;
+}
+
+.helpContent{
+    position: absolute;
+    width: 1200px;
+    height: 431px;
+    left: calc(50% - 1200px/2);
+    top: 80px;
+}
+
+.helpHeading {
+    position: absolute;
+    width: 308px;
+    height: 90px;
+    left: 445px;
+    top: 0px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.list{
+    position: absolute;
+    width: 1026px;
+    height: 281px;
+    left: 87px;
+    top: 150px;
+}
+
+.petFood{
+    position: absolute;
+    width: 82px;
+    height: 113px;
+    left: 0px;
+    top: 0px;
+}
+
+.iconFood{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 4px;
+    top: 0px;
+}
+
+.foodPicture{
+    position: absolute;
+    height: 60px;
+    left: 11px;
+    top: 0px;
+}
+
+.foodText{
+    position: absolute;
+    width: 82px;
+    height: 23px;
+    left: 0px;
+    top: 90px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #545454;
+}
+
+.transportation{
+    position: absolute;
+    width: 150px;
+    height: 113px;
+    left: 202px;
+    top: 0px;
+}
+
+.iconTransport {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 44px;
+    top: 0px;
+}
+
+.transportPicture {
+    position: absolute;
+    width: 59.95px;
+    height: 60px;
+    left: calc(50% - 59.95px/2 - 0.05px);
+    top: calc(50% - 60px/2);
+}
+
+.transportText{
+    position: absolute;
+    width: 150px;
+    height: 23px;
+    top: 90px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.toys{
+    position: absolute;
+    width: 60px;
+    height: 113px;
+    left: 472px;
+    top: 0px;
+}
+
+.iconToys{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0px;
+}
+
+.toysPicture {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: calc(50% - 60px/2);
+    top: calc(50% - 60px/2);
+}
+
+.toysText{
+    position: absolute;
+    width: 46px;
+    height: 23px;
+    left: 7px;
+    top: 90px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.blowsAndCups {
+    position: absolute;
+    width: 153px;
+    height: 113px;
+    left: 698px;
+    top: 0px;
+}
+
+.iconBlowsAndCups{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0px;
+}
+
+.blowsAndCupsPicture{
+    position: absolute;
+    width: 60px;
+    height: 56.82px;
+}
+
+.blowsAndCupsText{
+    position: absolute;
+    width: 153px;
+    height: 23px;
+    left: -46px;
+    top: 90px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #545454;
+}
+
+.shampoos{
+    position: absolute;
+    width: 101px;
+    height: 113px;
+    left: 925px;
+    top: 0px;
+}
+
+.iconShampoos{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 21px;
+    top: 0px;
+}
+
+.shampoosPicture{
+    position: absolute;
+    width: 31.3px;
+    height: 60px;
+    left: calc(50% - 31.3px/2 - 0.7px);
+    top: calc(50% - 60px/2);
+}
+
+.shampoosText{
+    position: absolute;
+    width: 101px;
+    height: 23px;
+    top: 90px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.vitamins{
+    position: absolute;
+    width: 89px;
+    height: 113px;
+    left: 84px;
+}
+
+.iconVitamins{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 14px;
+    top: 168px;
+}
+
+.vitaminsPicture{
+    position: absolute;
+    width: 60px;
+    height: 54.16px;
+    left: calc(50% - 60px/2);
+    top: calc(50% - 54.16px/2 + 0.08px);
+}
+
+.vitaminsText{
+    position: absolute;
+    width: 89px;
+    height: 23px;
+    top: 258px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.medicines{
+    position: absolute;
+    width: 101px;
+    height: 113px;
+    left: 293px;
+}
+
+.iconMedicines{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 168px;
+}
+
+.medicinesPicture {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 20px;
+    top: calc(50% - 60px/2);
+}
+
+.medicinesText{
+    position: absolute;
+    width: 101px;
+    height: 23px;
+    top: 258px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.collars{
+    position: absolute;
+    width: 165px;
+    height: 113px;
+    left: 514px;
+}
+
+.iconCollars{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 52px;
+    top: 168px;
+}
+
+.collarsPicture{
+    position: absolute;
+    width: 60px;
+    height: 52.43px;
+    left: 0px;
+    top: 4px;
+}
+
+.collarsText{
+    position: absolute;
+    width: 165px;
+    height: 23px;
+    top: 258px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.057em;
+    color: #545454;
+}
+
+.sleepingArea{
+    position: absolute;
+    width: 143px;
+    height: 113px;
+    left: 799px;
+}
+
+.iconSleepingArea{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 168px;
+}
+
+.sleepingAreaPicture{
+    position: absolute;
+    width: 56.29px;
+    height: 60px;
+    left: 44px;
+    top: calc(50% - 60px/2);
+}
+
+.sleepingAreaText{
+    position: absolute;
+    width: 143px;
+    height: 23px;
+    top: 258px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #545454;
+}
+
+.donation {
+    position: absolute;
+    height: 462px;
+    left: 0%;
+    right: 0%;
+    top: 2984px;
+    width: 1280px;
+    background: #F6F6F6;
+}
+
+.donationContent{
+    position: absolute;
+    width: 915px;
+    height: 282px;
+    left: calc(50% - 915px/2 + 0.5px);
+    top: 80px;
+}
+
+.donationAllInfo {
+    position: absolute;
+    width: 380px;
+    height: 282px;
+    left: 535px;
+    top: 0px;
+}
+
+.imgOneDog {
+    position: absolute;
+    width: 505px;
+    height: 261px;
+    left: -1px;
+    top: 11px;
+}
+
+.donationHeading {
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donationSubheading{
+    position: absolute;
+    height: 17px;
+    left: 0px;
+    top: 110px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.creditCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    position: absolute;
+    width: 318px;
+    height: 23px;
+    left: 0px;
+    top: 147px;
+    background: #F1CDB3;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.creditCard:hover{
+    background: #FDDCC4;
+    transition: .4s;
+}
+
+.creditCardContent{
+    position: static;
+    width: 319px;
+    height: 23px;
+    left: 15px;
+    top: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.creditIcon {
+    position: absolute;
+    width: 30px;
+    height: 23px;
+    left: 14px;
+    top: 9px;
+    cursor: pointer;
+}
+
+.number{
+    position: absolute;
+    height: 23px;
+    left: 60px;
+    top: 9px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.legalIngormation{
+    width: 380px;
+    height: 72px;
+    padding-left: 0px;
+    padding-top: 210px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    cursor: default;
+    color: #B2B2B2;
+}
+
+
+.footer{
+    background: url(../../images/Group\ 2.png);
+    position: absolute;
+    height: 350px;
+    left: 0%;
+    right: 0%;
+    top: 3446px;
+    width: 1280px;
+}
+
+.footerContent {
+    position: absolute;
+    width: 1200px;
+    height: 310px;
+    left: 40px;
+    top: 40px;
+}
+
+.contacts {
+    position: absolute;
+    width: 278px;
+    height: 234px;
+    left: 0px;
+    top: 16px;
+}
+
+.location {
+    position: absolute;
+    width: 302px;
+    height: 234px;
+    left: 438px;
+    top: 16px;
+}
+
+.liz{
+    position: absolute;
+    width: 300px;
+    left: 900px;
+    top: -6px;
+}
+
+.contactsTitle{
+    position: absolute;
+    width: 280px;
+    height: 90px;
+    left: calc(50% - 278px/2 - 0px);
+    top: 0px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 129%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.mail{
+    position: absolute;
+    width: 251px;
+    height: 32px;
+    left: 13px;
+}
+
+.mailIcon{
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    left: calc(50% - 40px/2 - 119px);
+    top: 130px;
+}
+.mailPicture{
+    position: absolute;
+    width: 40px;
+    height: 26px;
+    left: calc(50% - 40px/2);
+    top: calc(50% - 26px/2 - 0px);
+}
+.mailText{
+    position: absolute;
+    width: 191px;
+    height: 23px;
+    left: calc(50% - 191px/2 + 16.5px);
+    top: 135px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    text-decoration: none;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.telephone {
+    position: absolute;
+    width: 239px;
+    height: 32px;
+    left: 20px;
+}
+
+.telephoneIcon{
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    left: calc(50% - 40px/2 - 119px);
+    top: 202px;
+}
+
+.phonePicture{
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+}
+
+.telephoneText{
+    position: absolute;
+    width: 180px;
+    height: 23px;
+    left: calc(50% - 179px/2 + 10.5px);
+    top: 206px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    text-decoration: none;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.boston{
+    position: absolute;
+    width: 302px;
+    height: 46px;
+    left: 0px;
+}
+
+.iconMarker {
+    position: absolute;
+    width: 22px;
+    height: 32px;
+    left: calc(50% - 22px/2 - 140px);
+    top: 130px;
+}
+
+.bostonAddress{
+    position: absolute;
+    width: 260px;
+    height: 46px;
+    left: calc(50% - 260px/2 + 21px);
+    top: 124px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    text-decoration: none;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.pin{
+    position: absolute;
+    width: 22px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+}
+
+.london{
+    position: absolute;
+    width: 302px;
+    height: 32px;
+    left: 0px;
+}
+
+.iconMarker1{
+    position: absolute;
+    width: 22px;
+    height: 32px;
+    left: calc(50% - 22px/2 - 140px);
+    top: 202px;
+}
+
+.londonAddress{
+    position: absolute;
+    width: 260px;
+    height: 23px;
+    left: calc(50% - 260px/2 + 21px);
+    top: 207px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    text-decoration: none;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.locationTitle{
+    position: absolute;
+    width: 270px;
+    height: 90px;
+    left: calc(50% - 270px/2 - 15px);
+    top: 0px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
