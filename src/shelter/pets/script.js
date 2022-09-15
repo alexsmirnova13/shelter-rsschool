@@ -41,7 +41,6 @@ const btn=document.querySelector('.big-popup__close')
 const bcgr=document.querySelector('.big-popup__content')
 bcgr.addEventListener("mouseover", func1, false); 
 bcgr.addEventListener("mouseout", func, false); 
-// bcgr.addEventListener("mouseover", func, false);
 function func() {  
     btn.classList.add('btn-hover')
 } 
@@ -49,15 +48,10 @@ function func1()  {
     btn.classList.remove('btn-hover')
 }
 
-// btn.addEventListener("mouseover", func1, false); 
-// btn.addEventListener("mouseout", func, false); 
-
-
 const popupLinks = document.querySelectorAll('.big-popup__link')
 const bodyAll = document.querySelector('body')
 const lockPadding = document.querySelectorAll('.lock-padding')
 const card=document.querySelectorAll('.card')
-// card.addEventListener('click', popupOpen)
 let unlock = true
 
 const timeout = 800
@@ -122,9 +116,7 @@ function bodyLock() {
 
 function popupClose(popupActive, doUnlock = true) {
     if (unlock) {
-        // popupActive.classList.add('inactive')
         popupActive.classList.remove('open')
-
         if (doUnlock) {
             bodyUnlock()
         }

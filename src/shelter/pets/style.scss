@@ -225,12 +225,7 @@ body.lock {
     color: #CDCDCD;
     margin-bottom: 40px;
 }
-// .popup .menu > li > a:hover {
-//     background-color: none;
-// }
-// .popup .menu > li > a:hover {
-//     color:#F1CDB3;
-// }
+
 .popup .menu__item:hover {
     color:#F1CDB3;
 }
@@ -244,7 +239,6 @@ body.lock {
     transition: 0.3s;
 }
 .hamb__field {
-    // transform: rotate(0deg);
     transition: 0.3s;
 }
 body.noscroll {
@@ -447,10 +441,6 @@ html {
         min-height: 100%;
         display: flex;
         justify-content: center;
-        // padding: 188px 190px 189px 190px;
-        // padding-top: 188px;
-        // padding-top: auto;
-        // padding-bottom: auto;
         align-items: center;
     }
     
@@ -649,10 +639,6 @@ html {
         }
     }
     .big-popup {
-        // &__body {
-        //     padding-top: auto;
-        //     padding-bottom: auto;
-        // }
         &__content {
             width: 630px;
             height: 350px;
@@ -661,7 +647,6 @@ html {
             border-radius: 9px 0px 0px 9px;
             width: 350px;
             height: 350px;
-            // margin-top: -10px;
         }
         &__close {
             top: -52px;
@@ -685,28 +670,6 @@ html {
             }
         }
     }
-    // .big-popup__body:hover  .big-popup__close {
-    //     background-color: #FDDCC4;
-    //     border-color: #FDDCC4;
-    //     // cursor: pointer;
-    // }
-    // .big-popup__body:hover .big-popup__close {
-    //     background-color: #FDDCC4;
-    //     border-color: #FDDCC4;
-    //     // cursor: pointer;
-    // }
-    // .big-popup__info:hover .big-popup__close {
-    //     // background-color: transparent;
-    //     background-color: green;
-    // }
-    // .overlay:hover .popup__close {
-    //     background: red;
-    //   }
-      
-    //   .popup:hover .popup__close {
-    //     background: transparent;
-    //   }
-
 }
 @media (max-width: 767px){
 
@@ -755,10 +718,6 @@ html {
         margin-left: 0px;
         color: #CDCDCD;
     }
-    // .menu__item:hover {
-    //     background-color: none;
-    //     color: green;
-    // }
     
     .popup .menu > li > a:hover {
         background-color: none;
@@ -771,7 +730,6 @@ html {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        // padding-top: 249px;
         margin-top: auto;
         margin-bottom: auto;
         overflow: auto;
@@ -868,7 +826,6 @@ html {
             h3 {
                 justify-content: center;
                 text-align: center;
-                // padding-left: 48px;
                 padding-top: 11px;
                 margin-left: auto;
                 margin-right: auto;

@@ -1043,19 +1043,23 @@ html {
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
+
   .wrapper {
     max-width: 1279px;
     width: 100%;
   }
+
   .button a {
     padding-top: 4px;
     padding-bottom: 2px;
   }
+
   .welcome {
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
   }
+
   .welcome__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1069,20 +1073,25 @@ html {
             align-items: center;
     margin-top: 60px;
   }
+
   .welcome__content img {
     width: 569px;
   }
+
   .welcome__content-btn {
     margin: 0;
   }
+
   .welcome__button {
     margin-left: auto;
     margin-right: auto;
   }
+
   .welcome__dog-img {
     margin-left: auto;
     margin-top: 100px;
   }
+
   .about__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1097,50 +1106,64 @@ html {
     padding-top: 67px;
     padding-bottom: 115px;
   }
+
   .about__text {
     margin-bottom: 55px;
   }
+
   .about__text h3 {
     color: #545454;
   }
+
   .about__text p {
     color: #4C4C4C;
   }
+
   .about__img-pets {
     margin: 0;
   }
+
   .pets {
     margin-top: -20px;
   }
+
   .pets__content {
     padding-left: 0px;
     padding-right: 0px;
   }
+
   .pets__slider .slider__card:nth-of-type(n+3) {
     display: none;
   }
+
   .slider {
     width: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
+
   .slider__card {
     margin: -2px 19px;
   }
+
   .slider__circle-btn {
     margin: 0px 4px;
   }
+
   .slider__container {
     width: 615px;
   }
+
   .help__content {
     padding-bottom: 49px;
   }
+
   .help__content h3 {
     color: #545454;
     padding-top: 0px;
   }
+
   .list {
     margin: 0px;
     margin-top: 60px;
@@ -1153,15 +1176,18 @@ html {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+
   .list__small-block {
     margin: 0;
     margin-bottom: 50px;
     margin-left: 37px;
     margin-right: 27px;
   }
+
   .list h4 {
     color: #545454;
   }
+
   .donation__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1169,24 +1195,30 @@ html {
             flex-direction: column-reverse;
     padding-left: 165px;
   }
+
   .donation__img {
     margin-top: 60px;
     margin-left: 15px;
   }
+
   .donation__content-text h5 {
     margin: 20px 0px;
   }
+
   .donation__content-text p {
     padding-right: 30px;
   }
+
   .donation__credit-card {
     margin-right: 42px;
   }
+
   .footer {
     background: url(../../images/BGBot768.png) center center/cover no-repeat no-repeat;
     padding: 0;
     padding-top: 30px;
   }
+
   .footer__content {
     width: auto;
     -ms-flex-wrap: wrap;
@@ -1199,62 +1231,76 @@ html {
             align-items: center;
     margin: 0px 51px;
   }
+
   .footer__column {
     padding-left: 17px;
     padding-right: 17px;
   }
+
   .footer__picture {
     width: 300px;
     margin-top: 65px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .big-popup__content {
     width: 630px;
     height: 350px;
   }
+
   .big-popup__img {
     border-radius: 9px 0px 0px 9px;
     width: 350px;
     height: 350px;
   }
+
   .big-popup__close {
     top: -52px;
     left: 624px;
   }
+
   .big-popup__text {
     padding-left: 10px;
   }
+
   .big-popup__text h4 {
     padding-bottom: 20px;
   }
+
   .big-popup__text h5 {
     font-size: 13px;
     line-height: 108%;
     padding-bottom: 20px;
     padding-right: 6px;
   }
+
   .big-popup__list li {
     padding-bottom: 5px;
   }
+
 }
 
 @media (max-width: 767px) {
+
   .heading {
     padding: 0;
     margin: 0;
     width: auto;
   }
+
   .wrapper {
     min-width: 320px;
     max-width: 767px;
     width: 100%;
   }
+
   .welcome {
     background: url(../../images/backgroundWelcome320.png) center center/cover no-repeat no-repeat;
     padding: 0;
     margin: 0;
   }
+
   .welcome__content {
     padding-top: 120px;
     -webkit-box-orient: vertical;
@@ -1271,24 +1317,30 @@ html {
     padding-right: 10px;
     margin-top: 0px;
   }
+
   .welcome__content img {
     width: 260px;
   }
+
   .welcome__dog-img {
     width: 260px;
     float: right;
     margin-top: 105px;
   }
+
   .welcome__heading {
     font-size: 25px;
   }
+
   .welcome__text {
     text-align: center;
   }
+
   .welcome__text p {
     width: auto;
     margin-top: 41px;
   }
+
   .welcome__text h2 {
     width: auto;
     font-size: 25px;
@@ -1301,12 +1353,15 @@ html {
         -ms-flex-align: center;
             align-items: center;
   }
+
   .welcome__button {
     margin: auto;
   }
+
   .welcome__content-btn {
     margin-top: -59px;
   }
+
   .header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1322,31 +1377,39 @@ html {
     padding-top: 30px;
     margin: 0;
   }
+
   .header__menu {
     padding: 0;
   }
+
   .header__logo {
     margin-right: 39px;
     z-index: 99999;
   }
+
   .button {
     padding-top: 14px;
     padding-bottom: 14px;
   }
+
   .logo__title {
     letter-spacing: 0.05em;
   }
+
   .menu {
     display: none;
   }
+
   .menu__item--active {
     padding: 0;
     color: #CDCDCD;
   }
+
   .menu__item {
     margin-left: 0px;
     color: #CDCDCD;
   }
+
   .popup .menu {
     margin: 0;
     width: 100%;
@@ -1369,6 +1432,7 @@ html {
     overflow: auto;
     padding: 0;
   }
+
   .hamb {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1379,9 +1443,11 @@ html {
     margin-right: 54px;
     z-index: 99999;
   }
+
   .hamb__field {
     z-index: 9999999;
   }
+
   .about__content {
     padding: 0;
     margin-top: 42px;
@@ -1392,16 +1458,19 @@ html {
     width: 100%;
     padding-bottom: 38px;
   }
+
   .about__img-pets {
     height: auto;
     width: 260px;
     margin: 20px auto;
   }
+
   .about__text {
     width: auto;
     padding-left: 15px;
     padding-right: 15px;
   }
+
   .about__text h3 {
     width: auto;
     font-size: 25px;
@@ -1410,6 +1479,7 @@ html {
     margin-bottom: 25px;
     margin-top: 0px;
   }
+
   .about__text p {
     margin-bottom: 22px;
     text-align: justify;
@@ -1425,30 +1495,36 @@ html {
     padding-right: 10px;
     line-height: 160%;
   }
+
   .pets__content {
     padding: 0;
     width: 100%;
     padding-top: 36px;
   }
+
   .pets__content h3 {
     width: auto;
     font-size: 25px;
     color: #545454;
   }
+
   .pets__slider {
     margin-top: 42px;
   }
+
   .circle-btn {
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 20px;
     margin-bottom: 42px;
   }
+
   .slider {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin-bottom: 0px;
   }
+
   .slider__card {
     width: 100%;
     -webkit-box-flex: 1;
@@ -1457,48 +1533,59 @@ html {
     margin-left: 0px;
     margin-right: 0px;
   }
+
   .slider__link-button {
     margin-bottom: 42px;
   }
+
   .slider {
     width: 320px;
   }
+
   .slider__container {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
             order: -1;
     width: 270px;
   }
+
   .slider__circle-btn {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
   }
+
   .card__button {
     padding-top: 12px;
     padding-left: 43px;
     padding-right: 43px;
   }
+
   .pets__slider .slider__card:not(:first-of-type) {
     display: none;
   }
+
   .help__content {
     padding-top: 42px;
     padding-bottom: 12px;
   }
+
   .help__heading {
     font-size: 25px;
     color: #545454;
     margin-bottom: 42px;
   }
+
   .help__list {
     margin: 0px;
   }
+
   .list {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
+
   .list__small-block {
     width: 40%;
     margin: 0px;
@@ -1509,15 +1596,18 @@ html {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+
   .list__small-block h4 {
     color: #545454;
     font-size: 15px;
   }
+
   .list__pic {
     width: 50px;
     height: 50px;
     margin-bottom: 20px;
   }
+
   .donation__content {
     padding: 0;
     margin: 0;
@@ -1526,16 +1616,19 @@ html {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+
   .donation__img {
     width: 260px;
     margin-bottom: 42px;
     margin-top: 29px;
   }
+
   .donation__content-text {
     padding-top: 39px;
     margin: 13px;
     margin-top: 8px;
   }
+
   .donation__content-text h3 {
     display: block;
     width: 100%;
@@ -1543,6 +1636,7 @@ html {
     font-size: 25px;
     color: #545454;
   }
+
   .donation__content-text h5 {
     text-align: center;
     display: block;
@@ -1556,11 +1650,13 @@ html {
             align-items: center;
     margin-top: 22px;
   }
+
   .donation__content-text p {
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
   }
+
   .donation__credit-card {
     margin: 0;
     margin-left: auto;
@@ -1568,12 +1664,14 @@ html {
     margin-top: 25px;
     width: 95%;
   }
+
   .donation__credit-card a {
     padding-top: 12px;
     padding-bottom: 12px;
     font-size: 15px;
     color: #545454;
   }
+
   .footer {
     background: url(../../images/backgroundBot320.png) center center/cover no-repeat no-repeat;
     margin: 0;
@@ -1583,6 +1681,7 @@ html {
             justify-content: center;
     width: 100%;
   }
+
   .footer__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1592,6 +1691,7 @@ html {
         -ms-flex-align: center;
             align-items: center;
   }
+
   .footer__column {
     margin-bottom: 20px;
     -webkit-box-align: center;
@@ -1601,6 +1701,7 @@ html {
         -ms-flex-pack: center;
             justify-content: center;
   }
+
   .footer__title {
     text-align: center;
     font-size: 25px;
@@ -1608,29 +1709,37 @@ html {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .footer__title br {
     display: none;
   }
+
   .footer__picture {
     margin-top: 30px;
     width: 260px;
   }
+
   .info-block__el {
     margin-top: 40px;
   }
+
   .fe2 {
     padding-right: 32px;
   }
+
   .big-popup__img {
     display: none;
   }
+
   .big-popup__content {
     width: 240px;
     height: 341px;
   }
+
   .big-popup__text {
     padding: 0;
   }
+
   .big-popup__text h3 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1640,11 +1749,13 @@ html {
     margin-left: auto;
     margin-right: auto;
   }
+
   .big-popup__text h4 {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
   }
+
   .big-popup__text h5 {
     font-size: 13px;
     line-height: 108%;
@@ -1655,14 +1766,16 @@ html {
     padding-right: 10px;
     padding-bottom: 20px;
   }
+
   .big-popup__list {
     padding-left: 26px;
   }
+
   .big-popup__list li {
     padding-bottom: 6px;
   }
+
   .big-popup__close {
     left: 220px;
   }
 }
-/*# sourceMappingURL=slyle.css.map */

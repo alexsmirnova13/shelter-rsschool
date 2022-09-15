@@ -39,15 +39,12 @@ function closeOnClick() {
 
 popupAreaa.addEventListener('click', closeOnClick)
 
-
-// popup 
-
+// popup
 
 const btn=document.querySelector('.big-popup__close')
 const bcgr=document.querySelector('.big-popup__content')
 bcgr.addEventListener("mouseover", func1, false); 
 bcgr.addEventListener("mouseout", func, false); 
-// bcgr.addEventListener("mouseover", func, false);
 function func() {  
     btn.classList.add('btn-hover')
 } 
@@ -179,28 +176,14 @@ sliderButtons.forEach(u => {
             appState.coreItems=appState.currentItems.slice(0,appState.itemsPerSlide);
             const innerWrapper=target.closest('.pets__slider').querySelector('.inner');
             innerWrapper.classList.add('translate-left');
-
-            // coreItems = appState.currentItems.slice(-appState.itemsPerSlide)
-            // document.querySelector('#slider__container').classList.add('transition-left')
-            // document.querySelector('#slider__container').addEventListener("animationEnd", ()=> {
-            //     document.querySelector('#slider__container').classList.remove('transition-left')
-            // })
         } else if (target.closest('.right')) {
             appState.coreItems=appState.currentItems.slice(-3);
             const innerWrapper=target.closest('.pets__slider').querySelector('.inner');
             innerWrapper.classList.add('translate-right');
-            // coreItems = appState.currentItems.slice(0, appState.itemsPerSlide)
-            // document.querySelector('#slider__container').classList.add('transition-right')
-            // document.querySelector('#slider__container').addEventListener("animationEnd", ()=> {
-            //     document.querySelector('#slider__container').classList.remove('transition-right')
-            // })
         }
         
     })
 })
-
-
-
 
 const random = (a, b) => {
     return Math.floor(a + Math.random() * (b + 1 - a));
@@ -259,7 +242,6 @@ const renderPets = (itemsToRender,sideToKeep='none') => {
     } else {
         rightContainer.remove();
         leftContainer.remove();
-       
     }
 
     leftContainer=document.createElement('div');
@@ -309,7 +291,7 @@ const renderPets = (itemsToRender,sideToKeep='none') => {
         }
         const popupButton=div.querySelector('.card__button');
     
-    popupButton.addEventListener('click',()=>{
+        popupButton.addEventListener('click',()=>{
         const bigPopup=document.querySelector('#big-popup');
         bodyAll.classList.add('lock')
         bigPopup.classList.add('open');
@@ -329,10 +311,8 @@ const renderPets = (itemsToRender,sideToKeep='none') => {
                     </ul>
                 </div>
         `
+        })
     })
-    })
-
-    
 }
 
 const initItems = makeItemsToRender();
@@ -346,7 +326,4 @@ bigPopup.addEventListener('click',(e)=>{
         popupClose(bigPopup);    
     }
 })
-// const BTN_LEFT=document.querySelector('.left')
-// const BTN_RIGHT=document.querySelector('.right')
-
 

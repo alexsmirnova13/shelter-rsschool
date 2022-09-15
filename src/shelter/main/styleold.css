@@ -3,15 +3,6 @@
     padding: 0;
 }
 
-.container{
-    /* width: 1280px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto; */
-}
-
-
-
 .background {
     background-image: url(../../images/Group\ 1.png);
     position: absolute;
@@ -24,10 +15,6 @@
 
 .header {
     position: absolute;
-    /* width: 1200px;
-    height: 60px;
-    left: calc(50% - 1200px/2);
-    top: 60px; */
 }
 
 .logo {
@@ -36,7 +23,6 @@
     height: 60px;
     left: 0px;
     top: 0px;
-
     cursor: pointer;
 }
 
@@ -77,27 +63,22 @@
     width: 443px;
     height: 27px;
     left: 757px;
-    /* top: 16px; */
     bottom: 44px;
 }
-
 
 .linkAbout {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    
     position: absolute;
     width: 114px;
     height: 27px;
     right: 329px;
     top: 16px;
-
     text-decoration: none;
     padding-bottom: 5px;
     border-bottom: 3.5px solid #F1CDB3;
-    /* cursor: pointer; */
 }
 
 .linkContacts{
@@ -105,7 +86,6 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
-
     position: absolute;
     width: 60px;
     height: 24px;
@@ -120,7 +100,6 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
-
     position: absolute;
     width: 106px;
     height: 24px;
@@ -135,7 +114,6 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
-
     position: absolute;
     width: 58px;
     height: 24px;
@@ -144,21 +122,19 @@
     text-decoration: none;
     cursor: pointer;
 }
+
 .navLinksText{
     position: static;
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: 0%;
-
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-
     color: #CDCDCD;
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -171,15 +147,12 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
-
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-
     color: #CDCDCD;
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -212,23 +185,19 @@
     flex-direction: column;
     align-items: center;
     padding: 15px 45px;
-
     position: absolute;
     width: 207px;
     height: 52px;
     left: calc(50% - 207px/2 - 126.5px);
     bottom: 0px;
-
     background: #F1CDB3;
     border-radius: 100px;
     border: none;
-
     cursor: pointer;
 }
 
 .btn:hover{
     background-color: #FDDCC4;
-    /* color: #545454; */
     transition: .4s;
 }
 
@@ -238,7 +207,6 @@
     right: 21.74%;
     top: 28.85%;
     bottom: 28.85%;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -246,15 +214,12 @@
     line-height: 130%;
     text-decoration: none;
     letter-spacing: 0.09em;
-
     color: #292929;
-
     flex: none;
     order: 0;
     flex-grow: 0;
-    /* margin: 10px 0px; */
-
 }
+
 .dog{
     position: absolute;
     width: 698px;
@@ -262,8 +227,8 @@
     left: calc(50% - 698px/2 + 251px);
     bottom: 0px;
 }
+
 .heading{
-    
     position: absolute;
     width: 310px;
     height: 114px;
@@ -274,10 +239,8 @@
     font-weight: 400;
     font-size: 44px;
     line-height: 130%;
-
     display: flex;
     align-items: center;
-
     color: #FFFFFF;
 }
 
@@ -287,16 +250,13 @@
     height: 72px;
     left: calc(50% - 460px/2);
     bottom: 94px;
-
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-
     display: flex;
     align-items: center;
-
     color: #CDCDCD;
 }
 
@@ -307,7 +267,6 @@
     left: 0%;
     right: 0%;
     top: 908px;
-
     background: #FFFFFF;
 }
 
@@ -341,17 +300,14 @@
     height: 90px;
     left: 0px;
     top: 0px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
     line-height: 130%;
-
     display: flex;
     align-items: center;
     letter-spacing: 0.06em;
-
     color: #545454;
 }
 
@@ -361,13 +317,11 @@
     height: 96px;
     left: 0px;
     top: 115px;
-
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-
     color: #4C4C4C;
 }
 
@@ -377,18 +331,16 @@
     height: 144px;
     left: 0px;
     top: 236px;
-
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-
     display: flex;
     align-items: center;
-
     color: #4C4C4C;
 }
+
 .pets{
     position: absolute;
     height: 877px;
@@ -396,7 +348,6 @@
     right: 0%;
     top: 1496px;
     width: 1280px;
-
     background: #F6F6F6;
 }
 
@@ -414,18 +365,15 @@
     height: 90px;
     left: 400px;
     top: 0px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
     line-height: 130%;
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     color: #545454;
 }
 
@@ -442,18 +390,15 @@
     flex-direction: column;
     align-items: center;
     padding: 21px 19px;
-
     position: absolute;
     width: 52px;
     height: 52px;
     left: 0px;
     top: 192px;
     background-color: transparent;
-
     border: 2px solid #F1CDB3;
     box-sizing: border-box;
     border-radius: 100px;
-
     cursor: pointer;
 }
 
@@ -468,19 +413,16 @@
     flex-direction: column;
     align-items: center;
     padding: 21px 19px;
-
     position: absolute;
     width: 52px;
     height: 52px;
     left: 1148px;
     top: 192px;
     background-color: transparent;
-
     border: 2px solid #F1CDB3;
     box-sizing: border-box;
     border-radius: 100px;
     transform: rotate(-180deg);
-
     cursor: pointer;
 }
 
@@ -496,15 +438,10 @@
     right: 36.54%;
     top: 44.23%;
     bottom: 44.23%;
-    /* background: transparent; */
-    
-    /* background: #292929; */
-
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 0px;
-
     cursor: pointer;
 }
 
@@ -515,15 +452,11 @@
     right: 9.62%;
     top: 55.77%;
     bottom: 32.69%;
-
-    /* background: #292929; */
     transform: rotate(-180deg);
-
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 0px;
-
     cursor: pointer;
 }
 
@@ -533,30 +466,26 @@
     height: 435px;
     left: 105px;
     top: 0px;
-
     background: #FAFAFA;
     border-radius: 9px;
-
     cursor: pointer;
 }
+
 .nameKaterine{
     position: absolute;
     width: 74px;
     height: 23px;
     left: 98px;
     top: 300px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     color: #545454;
 }
 .photo {
@@ -565,10 +494,8 @@
     right: 0%;
     top: 0%;
     bottom: 37.93%;
-
     background: url(image.png);
     border-radius: 9px 9px 0px 0px;
-    
 }
 
 .buttonSecondary {
@@ -576,7 +503,6 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: absolute;
     width: 187px;
     height: 52px;
@@ -595,16 +521,13 @@
     right: 0%;
     top: 0%;
     bottom: 0%;
-
     border: 2px solid #F1CDB3;
     box-sizing: border-box;
     border-radius: 100px;
-
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 0px;
-
     cursor: pointer;
 }
 
@@ -620,21 +543,16 @@
     right: 24.06%;
     top: 28.85%;
     bottom: 28.85%;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
-
     letter-spacing: 0.03em;
-
     color: #292929;
-
     flex: none;
     order: 0;
     flex-grow: 0;
-    /* margin: 10px 0px; */
 }
 
 .nameJenifer{
@@ -643,18 +561,15 @@
     height: 23px;
     left: 94px;
     top: 300px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     color: #545454;
 }
 
@@ -664,10 +579,8 @@
     height: 435px;
     left: 465px;
     top: 0px;
-
     background: #FAFAFA;
     border-radius: 9px;
-
     cursor: pointer;
 }
 
@@ -677,18 +590,15 @@
     height: 23px;
     left: 101px;
     top: 300px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     color: #545454;
 }
 
@@ -698,10 +608,8 @@
     right: 8.75%;
     top: 0%;
     bottom: 0%;
-
     background: #FAFAFA;
     border-radius: 9px;
-    /* border: none; */
     cursor: pointer;
 }
 
@@ -710,10 +618,6 @@
     border-color: #FDDCC4;
     transition: .4s;
 }
-
-/* .buttonSecondary {
-    border: none;
-} */
 
 .cardThird:hover{
     background-color: #FFFFFF;
@@ -744,13 +648,11 @@
     flex-direction: column;
     align-items: center;
     padding: 14px 44px;
-
     position: absolute;
     width: 261px;
     height: 52px;
     left: 470px;
     top: 645px;
-
     background: #F1CDB3;
     border-radius: 100px;
     border: none;
@@ -761,28 +663,25 @@
     background-color: #FDDCC4;
     transition: .4s;
 }
+
 .getToKnowTheRest{
     position: static;
     left: 17.24%;
     right: 17.24%;
     top: 28.85%;
     bottom: 28.85%;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 130%;
-
     letter-spacing: 0.06em;
     text-decoration: none;
     color: #292929;
-
     flex: none;
     order: 0;
     align-self: center;
     flex-grow: 0;
-    /* margin: 10px 0px; */
 }
 
 .help {
@@ -792,7 +691,6 @@
     right: 0%;
     top: 2373px;
     width: 1280px;
-
     background: #FFFFFF;
 }
 
@@ -810,18 +708,15 @@
     height: 90px;
     left: 445px;
     top: 0px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
     line-height: 130%;
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     color: #545454;
 }
 
@@ -851,7 +746,6 @@
 
 .foodPicture{
     position: absolute;
-    /* width: 60px; */
     height: 60px;
     left: 11px;
     top: 0px;
@@ -863,18 +757,15 @@
     height: 23px;
     left: 0px;
     top: 90px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.05em;
-
     color: #545454;
 }
 
@@ -890,7 +781,6 @@
     position: absolute;
     width: 60px;
     height: 60px;
-    /* left: calc(50% - 60px/2 - 236px); */
     left: 44px;
     top: 0px;
 }
@@ -901,28 +791,22 @@
     height: 60px;
     left: calc(50% - 59.95px/2 - 0.05px);
     top: calc(50% - 60px/2);
-
-    /* background: #F1CDB3; */
 }
 
 .transportText{
     position: absolute;
     width: 150px;
     height: 23px;
-    /* left: 202px; */
     top: 90px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     color: #545454;
 }
 
@@ -938,7 +822,6 @@
     position: absolute;
     width: 60px;
     height: 60px;
-    /* left: calc(50% - 60px/2 - 11px); */
     top: 0px;
 }
 
@@ -948,8 +831,6 @@
     height: 60px;
     left: calc(50% - 60px/2);
     top: calc(50% - 60px/2);
-
-/* background: #F1CDB3; */
 }
 
 .toysText{
@@ -958,18 +839,15 @@
     height: 23px;
     left: 7px;
     top: 90px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     color: #545454;
 }
 
@@ -985,7 +863,6 @@
     position: absolute;
     width: 60px;
     height: 60px;
-    /* left: 699px; */
     top: 0px;
 }
 
@@ -993,10 +870,6 @@
     position: absolute;
     width: 60px;
     height: 56.82px;
-    /* left: calc(50% - 60px/2); */
-    /* top: calc(50% - 56.82px/2 + 0.41px); */
-
-    /* background: #F1CDB3; */
 }
 
 .blowsAndCupsText{
@@ -1005,18 +878,15 @@
     height: 23px;
     left: -46px;
     top: 90px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.055em;
-
     color: #545454;
 }
 
@@ -1042,28 +912,22 @@
     height: 60px;
     left: calc(50% - 31.3px/2 - 0.7px);
     top: calc(50% - 60px/2);
-
-    /* background: #F1CDB3; */
 }
 
 .shampoosText{
     position: absolute;
     width: 101px;
     height: 23px;
-    /* left: 925px; */
     top: 90px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     color: #545454;
 }
 
@@ -1072,7 +936,6 @@
     width: 89px;
     height: 113px;
     left: 84px;
-    /* top: 168px; */
 }
 
 .iconVitamins{
@@ -1089,28 +952,22 @@
     height: 54.16px;
     left: calc(50% - 60px/2);
     top: calc(50% - 54.16px/2 + 0.08px);
-
-    /* background: #F1CDB3; */
 }
 
 .vitaminsText{
     position: absolute;
     width: 89px;
     height: 23px;
-    /* left: 84px; */
     top: 258px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     color: #545454;
 }
 
@@ -1119,14 +976,12 @@
     width: 101px;
     height: 113px;
     left: 293px;
-    /* top: 168px; */
 }
 
 .iconMedicines{
     position: absolute;
     width: 60px;
     height: 60px;
-    /* left: calc(50% - 60px/2 - 169px); */
     top: 168px;
 }
 
@@ -1136,28 +991,22 @@
     height: 60px;
     left: 20px;
     top: calc(50% - 60px/2);
-
-    /* background: #F1CDB3; */
 }
 
 .medicinesText{
     position: absolute;
     width: 101px;
     height: 23px;
-    /* left: 293px; */
     top: 258px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     color: #545454;
 }
 
@@ -1166,7 +1015,6 @@
     width: 165px;
     height: 113px;
     left: 514px;
-    /* top: 168px; */
 }
 
 .iconCollars{
@@ -1183,28 +1031,22 @@
     height: 52.43px;
     left: 0px;
     top: 4px;
-
-    /* background: #F1CDB3; */
 }
 
 .collarsText{
     position: absolute;
     width: 165px;
     height: 23px;
-    /* left: calc(50% - 165px/2 + 83.5px); */
     top: 258px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.057em;
-
     color: #545454;
 }
 
@@ -1213,14 +1055,12 @@
     width: 143px;
     height: 113px;
     left: 799px;
-    /* top: 168px; */
 }
 
 .iconSleepingArea{
     position: absolute;
     width: 60px;
     height: 60px;
-    /* left: calc(50% - 60px/2 + 358px); */
     top: 168px;
 }
 
@@ -1230,28 +1070,22 @@
     height: 60px;
     left: 44px;
     top: calc(50% - 60px/2);
-
-    /* background: #F1CDB3; */
 }
 
 .sleepingAreaText{
     position: absolute;
     width: 143px;
     height: 23px;
-    /* left: 799px; */
     top: 258px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 115%;
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.055em;
-
     color: #545454;
 }
 
@@ -1262,7 +1096,6 @@
     right: 0%;
     top: 2984px;
     width: 1280px;
-    
     background: #F6F6F6;
 }
 
@@ -1273,6 +1106,7 @@
     left: calc(50% - 915px/2 + 0.5px);
     top: 80px;
 }
+
 .donationAllInfo {
     position: absolute;
     width: 380px;
@@ -1289,44 +1123,36 @@
     top: 11px;
 }
 
-
 .donationHeading {
     position: absolute;
     width: 300px;
     height: 90px;
     left: 0px;
     top: 0px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
     line-height: 130%;
-
     display: flex;
     align-items: center;
     letter-spacing: 0.06em;
-
     color: #545454;
 }
 
 .donationSubheading{
     position: absolute;
-    /* width: 307px; */
     height: 17px;
     left: 0px;
     top: 110px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 110%;
-
     display: flex;
     align-items: center;
     letter-spacing: 0.06em;
-
     color: #545454;
 }
 
@@ -1335,28 +1161,20 @@
     flex-direction: column;
     align-items: center;
     padding: 10px 15px;
-
     position: absolute;
     width: 318px;
     height: 23px;
     left: 0px;
     top: 147px;
-
     background: #F1CDB3;
     border-radius: 9px;
-
     cursor: pointer;
 }
-
 
 .creditCard:hover{
     background: #FDDCC4;
     transition: .4s;
 }
-
-/* .creditCard:hover .creditCard {
-    background: #FDDCC4;
-} */
 
 .creditCardContent{
     position: static;
@@ -1364,7 +1182,6 @@
     height: 23px;
     left: 15px;
     top: 10px;
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1378,16 +1195,13 @@
     left: 14px;
     top: 9px;
     cursor: pointer;
-    /* background: #292929; */
 }
 
 .number{
     position: absolute;
-    /* width: 274px; */
     height: 23px;
     left: 60px;
     top: 9px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1397,25 +1211,19 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.06em;
-
     color: #545454;
 }
 
 .legalIngormation{
-    /* position: absolute; */
     width: 380px;
     height: 72px;
-    /* left: -10px; */
-    /* top: 210px; */
     padding-left: 0px;
     padding-top: 210px;
-
     font-family: 'Arial';
     font-style: italic;
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
-
     display: flex;
     align-items: center;
     cursor: default;
@@ -1460,8 +1268,6 @@
 .liz{
     position: absolute;
     width: 300px;
-    /* height: 310px; */
-    /* left: calc(50% - 300px/2 + 450px); */
     left: 900px;
     top: -6px;
 }
@@ -1472,15 +1278,12 @@
     height: 90px;
     left: calc(50% - 278px/2 - 0px);
     top: 0px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
     line-height: 129%;
-
     letter-spacing: 0.06em;
-
     color: #FFFFFF;
 }
 
@@ -1489,7 +1292,6 @@
     width: 251px;
     height: 32px;
     left: 13px;
-    /* top: 40px; */
 }
 
 .mailIcon{
@@ -1505,8 +1307,6 @@
     height: 26px;
     left: calc(50% - 40px/2);
     top: calc(50% - 26px/2 - 0px);
-
-    /* background: #F1CDB3; */
 }
 .mailText{
     position: absolute;
@@ -1514,7 +1314,6 @@
     height: 23px;
     left: calc(50% - 191px/2 + 16.5px);
     top: 135px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1522,7 +1321,6 @@
     line-height: 115%;
     text-decoration: none;
     letter-spacing: 0.06em;
-
     color: #F1CDB3;
 }
 
@@ -1531,7 +1329,6 @@
     width: 239px;
     height: 32px;
     left: 20px;
-    /* top: 40px; */
 }
 
 .telephoneIcon{
@@ -1548,8 +1345,6 @@
     height: 32px;
     left: 0px;
     top: 0px;
-
-    /* background: #F1CDB3; */
 }
 
 .telephoneText{
@@ -1558,7 +1353,6 @@
     height: 23px;
     left: calc(50% - 179px/2 + 10.5px);
     top: 206px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1566,7 +1360,6 @@
     line-height: 115%;
     text-decoration: none;
     letter-spacing: 0.06em;
-
     color: #F1CDB3;
 }
 
@@ -1575,7 +1368,6 @@
     width: 302px;
     height: 46px;
     left: 0px;
-    /* top: 124px; */
 }
 
 .iconMarker {
@@ -1592,7 +1384,6 @@
     height: 46px;
     left: calc(50% - 260px/2 + 21px);
     top: 124px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1600,25 +1391,24 @@
     line-height: 115%;
     text-decoration: none;
     letter-spacing: 0.06em;
-
     color: #F1CDB3;
 }
+
 .pin{
     position: absolute;
     width: 22px;
     height: 32px;
     left: 0px;
     top: 0px;
-
-    /* background: #F1CDB3; */
 }
+
 .london{
     position: absolute;
     width: 302px;
     height: 32px;
     left: 0px;
-    /* top: 202px; */
 }
+
 .iconMarker1{
     position: absolute;
     width: 22px;
@@ -1633,7 +1423,6 @@
     height: 23px;
     left: calc(50% - 260px/2 + 21px);
     top: 207px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -1641,7 +1430,6 @@
     line-height: 115%;
     text-decoration: none;
     letter-spacing: 0.06em;
-
     color: #F1CDB3;
 }
 
@@ -1651,14 +1439,11 @@
     height: 90px;
     left: calc(50% - 270px/2 - 15px);
     top: 0px;
-
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
     line-height: 130%;
-
     letter-spacing: 0.06em;
-
     color: #FFFFFF;
 }
